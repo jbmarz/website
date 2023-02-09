@@ -1,5 +1,5 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
  <head> 
   <title>Home</title>
    <meta charset="UTF-8">
@@ -101,28 +101,74 @@
     <main>
        <h1 style="text-align: center;">Featured Links</h1>
 <p style="text-align: center;">connection to free open source content to benefit.</p>
-     
+     <!--Page-Menu-Container-->
      <div>
      <p>
       <ul class="Sections">
           <div>
-              <li><button type="#Section1">Archives</li>
-          </div>
+              <li><button type="#Section1">My Favorites</li>
+          </div><br/>
           <div>
               <li><button type="#Section 2">Section 2</li>
-          </div>
+          </div><br/>
           <div>
               <li><button type="#Section 3">Section 3</li>
           </div>
        </ul>  
       </p>
       </div>
+      <!--End-Page-Menu-Container-->
+      <!--Section 1 Container-->
   <div id="Section 1">       
- <h2 style="background-color: skyblue;"><strong>Section 1</strong></h2>
-      <p>This is a paragraph about section 1</p>
+ <h2 style="background-color: skyblue;"><strong>My Favorite Resources</strong></h2>
+    <div>
+      <h3> The following are links to a few of my most used resources, as each one is the top of its class and provides these resources completely free and open source for all.<br/>
+        I use these regularly and I am certain others will too if they take the time to acustom themselves to the how these sites work.</h3>>
+    </div>
+    <!--Section 1-Favorites List Container-->
+    <div class="favorites-list">
+      <ol>
+      <!--Section 1-Favorites List-Item 1 Container-->
+        <div class="list-item">
+          <li>
+            <a href="https://archive.org">
+            <h2>The Internet Archive</h2>
+            </a>
+            <!--paragraph describing the list item-->
+             <p1> A non-profit digital library offering permanent access to historical collections that include multimedia content such as audio, video, and text as well as software and games. The organization was founded in 1996 with the mission of offering universal access to all knowledge.<br/>
+
+The Internet Archive website <a href="https://www.archive.org">(www.archive.org)<a> has a vast collection of resources, including:<br/>
+<!--categories archive.org has to offer -->
+<h4><strong>A. <a href="#">The Wayback Machine</a></strong></h4> A digital archive of the World Wide Web that allows users to see snapshots of websites as they appeared in the past.<br/>
+
+<h4><strong>B. <a href="#">Books</h4></strong>Over 2 million free books available for download or reading online.<br/>
+
+<h4><strong>C. <a href="#">Videos</h4></strong>A collection of over 2 million videos including movies, documentaries, and news programs.<br/>
+<strong><h4>D. <a href="#">Audio</h4></strong> A collection of over 2 million free audio files including music, lectures, and radio programs.<br/>
+
+<strong><h4>E. <a href="#">Software</h4></strong> A collection of software and games that are either freeware, shareware, or abandonware.<br/>
+
+<strong><h4>F.<a href="#">Images</h4></strong> A collection of over 2 million images including photographs, illustrations, and art.<br/>
+In addition to these resources, Internet Archive also offers a range of services including lending books through their <a href="#">Open Library</a> project and hosting live music concerts through their <a href"#">Great Live Music Archive</a> project. Overall, Internet Archive provides a wealth of information and resources for people who are interested in preserving and accessing digital history.</p1>
+          </li>
+          </div>
+          <!--End Section 1-Favorites List-Item 1 Container-->
+          <!--Section 1-Favorites List-Item 2 Container-->
+        <br/>
+        <div class="list-item">
+          <li>
+            <a href="https://">The #2 item</a>
+            <p2>this is the desription of the listed item</p2>
+          </li>
+         </div>
+          <!--End Section 1-Favorites List-Item 2 Container-->
+       </div>
+          
+          <!--Section 1-Favorites List Container-->
       
-             
- <h2 style="background-color: ivory;">Section 2</h2>
+    <div id="section 2">            
+      <h2 style="background-color: skyblue;"><strong>Section 2</strong></h2>
+        </div>
       <p>This is a paragraph about section 2</p>
         
              
@@ -131,11 +177,19 @@
         
       
   <footer style="background-color: steelblue;">
+  <div class="footer-copyright" style="text-align: right;">
+ 
+  <p>Copyright ©2023 by J B Martin</p> 
+  </div>
+  <div class="footer-nav">
    <ul> 
     <li><a href="#home" class=active>Home</a></li>
     <li><a href="#links">Links</a></li>
     <li><a href="#about">About</a></li>
-     <li><a href="#Contact">Contact</a></li>
+     <li><a href="#contact">Contact</a></li>
+     </ul>
+     </div>
+     </footer>
     
     <script>
     function myFunction() {
