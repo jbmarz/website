@@ -1,0 +1,151 @@
+<!doctype html>
+<html>
+ <head> 
+  <title>Home</title>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1"
+   <meta name="keywords" content="HTML, CSS, JavaScript">
+   <meta language="en">
+   <style>
+   	 header { 
+   	  background-color: steelblue;
+   	  padding: 9;
+   	  margin: 3;
+   	  color: 000000;
+   	  }
+   	  
+      body {
+       margin: 3;
+       font-family: Arial, Helvetica, sans-serif;
+   }
+   
+    .nav {
+      overflow: hidden;
+      background-color: #f2f2f2;
+   }
+  
+    .nav a {
+       float: right;
+       display: block;
+       color: #000000;
+       text-align: center;
+       padding: 12px 15px;
+       text-decoration: none;
+       font-size: 15px;
+    }
+     
+    .nav a:hover {
+      background-color: #000000;
+      color: white;
+    }
+     
+     
+    .nav a.active {
+      background-color: #a3a3a3;
+      color: white;
+    }
+    
+    .nav .icon {
+      display: none;
+    }
+    
+     @media screen and (max-width: 600px) {
+     .topnav a:not(:first-child) (display: none;)
+     .topnav a.icon {
+        float: right;
+        display: block;
+     }
+        
+      .                                                                             
+                                                                                    
+                                                                                    
+     nav.resonsive a {
+        float: none;
+        display: block;
+        text-align: left;
+     }
+   } 
+   </style>
+ </head>
+  <body> 
+    <div class="header">
+   	<header>
+   	 
+      <h1 style="color: ivory;">JBMARZ.com</h1>
+      </div>
+      <div class="nav" id="main-navigation">
+      <div style="text-align: right;, padding-right: 18px;">
+       <div >      
+       <a href="#/index.html" class=active>Home</a>
+       </div>
+       
+       
+       <div>
+      <a href="#links.html">Links</a>
+          </div>
+          <div>
+      <a href="#/about.html">About</a>
+          </div>
+          <div>
+      <a href="#contact.html">Contact</a>
+         </div>
+          <div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        </div>
+      <i class="fa fa-bars"></i>
+       </a>
+      </div>
+      </div>
+   
+   </header>
+    <main>
+       <h1 style="text-align: center;">Featured Links</h1>
+<p style="text-align: center;">connection to free open source content to benefit.</p>
+     
+     <div>
+     <p>
+      <ul class="Sections">
+          <div>
+              <li><button type="#Section1">Archives</li>
+          </div>
+          <div>
+              <li><button type="#Section 2">Section 2</li>
+          </div>
+          <div>
+              <li><button type="#Section 3">Section 3</li>
+          </div>
+       </ul>  
+      </p>
+      </div>
+  <div id="Section 1">       
+ <h2 style="background-color: skyblue;"><strong>Section 1</strong></h2>
+      <p>This is a paragraph about section 1</p>
+      
+             
+ <h2 style="background-color: ivory;">Section 2</h2>
+      <p>This is a paragraph about section 2</p>
+        
+             
+ <h2 style="background-color: skyblue;">Section 3</h2>
+      <p>This is a paragraph about section 3</p>
+        
+      
+  <footer style="background-color: steelblue;">
+   <ul> 
+    <li><a href="#home" class=active>Home</a></li>
+    <li><a href="#links">Links</a></li>
+    <li><a href="#about">About</a></li>
+     <li><a href="#Contact">Contact</a></li>
+    
+    <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+        } else {
+        x.className = "topnav";
+        }
+      }
+    </script>  
+</body>
+</html>
