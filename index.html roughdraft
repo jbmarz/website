@@ -67,53 +67,40 @@
    } 
    </style>
  </head>
-  <body> 
-    <div class="header">
-   	<header>
-   	 
-      <h1 style="color: ivory;">JBMARZ.com</h1>
-      </div>
-      <div class="nav" id="main-navigation">
-      <div style="text-align: right;, padding-right: 18px;">
-       <div >      
-       <a href="#/index.html" class=active>Home</a>
-       </div>
-       
-       
-       <div>
-      <a href="#links.html">Links</a>
-          </div>
-          <div>
-      <a href="#/about.html">About</a>
-          </div>
-          <div>
-      <a href="#contact.html">Contact</a>
-         </div>
-          <div>
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        </div>
+  <body>
+    <header>
+      <div class="Logo"
+   	 <h1 style="color: ivory; font-size: 33px;">JBMARZ Home</h1>
+    </div>
+    <div class="nav" id="main-navigation">
+    <div style="text-align: right;, padding-right: 18px;">
+       <div><a href="#contact.html">Contact</a></div>
+       <div><a href="#about.html">About</a></div>
+       <div><a href="#links.html">Links</a></div>
+      <div><a href="#index.html" class=active>Home</a></div>
+          <div><a href="javascript:void(0);" class="icon" onclick="myFunction()"></div>
       <i class="fa fa-bars"></i>
        </a>
       </div>
       </div>
-   
    </header>
     <main>
-       <h1 style="text-align: center;">Featured Links</h1>
-<p style="text-align: center;">connection to free open source content to benefit.</p>
+      <div class="Main-Body">
+       <h1 style="text-align: center;">Home</h1>
+        <h4 style="font-size: 18;">Brief Intro</h4>
+<p style="text-align: left;">This site is working toward compiling an archive of all the world wide web's best free & open source Resources. Many of which exist unknown to the vast majority of users, simply because there is no profit in advertising such sites.<br/> <br/>Originally, I created a resource like this for my own private use but I wish now to develop it a bit more and make it available for all, hopefully all my visitors will benefit from these Wonderful website's services as I have.<br/><br/>These are just a few, check out the <a href="#links">Links Page</a> to see a full list of what I have gathered for our mutual benefit. Check back often as the list is added to regularly. Enjoy! <br/><br/>
+        Find out more about this website, its developer, and the mission, code, and vision of both by clicking the <a href="#about">About Page</a></p><br/><br/>
+        
+        
      <!--Page-Menu-Container-->
      <div>
+       <h3> Page Menu</h3>
      <p>
       <ul class="Sections">
           <div>
-              <li><button type="#Section1">My Favorites</li>
-          </div><br/>
-          <div>
-              <li><button type="#Section 2">Section 2</li>
-          </div><br/>
-          <div>
-              <li><button type="#Section 3">Section 3</li>
-          </div>
+            <li><button type="#Section1">Favorites</button></li></div><br/>
+        <div><li><button type="#Section 2">Articles</button></li></div><br/>
+        <div><li><button type="#Section 3">Section 3</button></li></div>
        </ul>  
       </p>
       </div>
