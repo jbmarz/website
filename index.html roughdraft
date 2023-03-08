@@ -14,7 +14,7 @@
   <body>
     <header style="background-color: steelblue;">
         <div class="Logo".>
-           <h1 style="color: ivory; font-size: 33px;">JBMARZ</h1>
+           <img src="img/logo.png">
         </div>
         <div class="nav" id="main-navigation" style="text-align: right; padding: 9px; background-color: ivory;">
         <div style="padding: 7px;">
