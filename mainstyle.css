@@ -1,0 +1,119 @@
+header {
+  display: flex;
+  background-color: black;
+}
+
+.projects {
+  background-color: black;
+  padding: 3px;
+  font-size: 14px;
+}
+
+
+a {
+  color:white;
+}
+ 
+ a:hover {
+     
+    background-color: blue;
+    color: white;
+ }
+
+.letters {
+  display: flex;
+  align-items: center;
+  font-family: "Rubik Wet Paint", cursive;
+  padding-left: 66px;
+  height: 45vh;
+}
+
+.letter-J,
+.letter-B,
+.letter-M,
+.letter-A,
+.letter-R,
+.letter-Z {
+  font-size: 4em;
+  color: white;
+  opacity: 0;
+  animation-name: spraypaint;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+  text-shadow: 9px 9px 83px rgba(157, 190, 238, 0.63);
+}
+
+.letter-J {
+  animation-delay: 0.5s;
+}
+.letter-B {
+  animation-delay: 1s;
+}
+.letter-M {
+  animation-delay: 1.5s;
+}
+
+.letter-A {
+  animation-delay: 2s;
+}
+
+.letter-R {
+  animation-delay: 2.5s;
+}
+
+.letter-Z {
+  animation-delay: 3s;
+}
+
+@keyframes spraypaint {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+
+main {
+  border: 6px solid black;
+  padding: 18px;
+}
+
+footer{
+  background-color: black;
+  color: ivory; 
+  padding:9px;
+}
+
+.home-btn {
+  background: linear-gradient(
+    45deg,
+    rgb(255, 67, 67),
+    rgba(29, 134, 255, 0.822)
+  );
+  color: #ffffff;
+  padding-right: 6px;
+  margin: 21px;
+  min-width: 66px;
+  max-width: 125px;
+  height: 33px;
+  font-size: 18px;
+  align-self: center;
+  text-align: center;
+  border-radius: 33px;
+  box-shadow: 9px 9px 33px rgba(180, 192, 213, 0.63);
+  transition: transform 0.3s ease-in-out;
+}
+
+
+.home-btn:hover {
+  transform: scale(1.125);
+  background: linear-gradient(
+    69deg,
+    rgba(29, 134, 255, 0.922),
+    rgb(233, 38, 38)
+  );
+}
