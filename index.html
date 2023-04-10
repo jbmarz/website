@@ -36,21 +36,33 @@
       </header>
       
       <main>
-        <h1> About Me </h1>
-          <p>Hi there! welcome to jbmarz.com <br/> The home page for a hobbyist webmaster with a passion for creating.<br/>I love experimenting with new technologies and learning new skills, and I'm always looking for new projects to work on.</p>
-        <h2>My Projects</h2>
+        <div>
+         <h1> About Me </h1>
+          <p>Hi there! welcome to jbmarz.com <br/> The home page for a hobbyist webmaster with a passion for creating</p>
+          <p>I love experimenting with new technologies and learning new skills, and I'm always looking for new projects to work on.</p>
+        </div>
+        <div>
+            
+        </div>
         <div class="projects">
+         <h2>My Projects</h2>
           <ul>
             <li>
               <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vR6OnjbJjT5uV67H58dhN-ywH6YgigWDNA4WJToCkN44mnVsY6sxDMH2Bk_KPD_olSg0KSV3ticaO0A/pubhtml">Links to Online Resources</a>
-              
             </li>
             <li>
                 <a href="games">Games</a>
             </li>
-            <!--<li><a href="#">Project 3</a></li>-->
+            <li><a href="articles">Articles</a>
+            </li>
           </ul>
         </div>
+        <!--cookies div is hidden once user accepts the cookies popup-->
+        <div id="cookie-consent">
+                <p>We use cookies to improve your experience on our website. By continuing to browse the site, you agree to our use of cookies.</p>
+                 <button id="accept-cookies">Accept</button>
+        </div>
+
       </main>
 
       <!--Start of FOOTER SECTION-->
@@ -61,12 +73,12 @@
         <div class="footnotes">
 
             <p> &copy;JBMARZ 2023 | Webmaster: J. B. Martin | Email: admin@jbmarz.com </p>
+            <p> <a href="https://github.com/jbmarz/website/blob/main/license">license</a></p>
         </div>
       </footer>
 
       <!--scripts-->
 
-      <script src="main.js"></script>
+      <script src="js/cookies.js"></script>
     </body>
   </html>
-
